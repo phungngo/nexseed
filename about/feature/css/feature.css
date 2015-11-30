@@ -1,0 +1,293 @@
+h6 {
+	margin:0;
+	padding:0 0 6px 0;
+}
+
+.title_full {
+	display:block;
+}
+.title_full span {
+	font-size: 115%;
+}
+.icon_balloon{
+	background: url(../images/icon_balloon.jpg) top left no-repeat;
+	background-size: 50px;
+	padding: 2px 0 5px 55px;
+	line-height: 1.5;
+}
+.icon_pc{
+	background: url(../images/icon_pc.jpg) top left no-repeat;
+	background-size: 45px;
+	padding: 2px 0 5px 55px;
+	line-height: 1.5;
+}
+.icon_earth{
+	background: url(../images/icon_earth.jpg) top left no-repeat;
+	background-size: 40px;
+	padding: 2px 0 5px 55px;
+	line-height: 1.5;
+}
+
+
+h6.title_small {
+	display:none;
+}
+
+.img_photo{
+	width: 196px;
+	border: 6px solid #b4e9fb;
+}
+.img_contain {
+	width:210px;
+	vertical-align:top;
+}
+.text_contain {
+	width:443px;
+	vertical-align:top;
+}
+.main_right .group1 {
+	width:100%;
+	clear:both;
+	margin-top:30px;
+}
+
+.main_right .group1 .text_contain {
+	float:right;
+}
+
+.main_right .group1 .img_contain {
+	float:left;
+	padding-right:27px;
+}
+
+.main_right .group2 {
+	width:100%;
+	clear:both;
+}
+
+.main_right .group2 .img_contain {
+	float:right;
+}
+
+.main_right .group2 .text_contain {
+	padding-right:27px;
+	float:left;
+}
+
+.main_right .group3 {
+	width:100%;
+	clear:both;
+}
+
+.main_right .group3 .img_contain {
+	float:left;
+	padding-right:27px;
+}
+
+.main_right .group3 .text_contain {
+	float:left;
+}
+
+.main_right a {
+	display:block;
+	float:left;
+	clear:both;
+	font-size:14px; 
+	line-height:30px;
+	color:#0084b5;
+	text-decoration:underline;
+	vertical-align:top;
+}
+
+.main_right a:hover {
+	text-decoration:none;
+}
+
+.main_right a img {
+	vertical-align:top;
+	padding-left:10px;
+	margin-top:9px;
+}
+
+.main_right .group1 a.link2 {
+	margin-bottom:27px;
+}
+.main_right .group1 a.link1 {
+	margin-top:12px;
+}
+
+
+.main_right .group2 a.link1 {
+	margin-bottom:27px;
+	margin-top:12px;
+}
+
+.main_right .group3 a.link1 {
+	margin-top:12px;
+}
+
+hr.line {
+	width:100%;
+	clear:both;
+	height:1px;
+	border:none;
+	background:#d8d8d8;
+	margin:0px auto 27px auto;
+}
+
+
+@media screen and (max-width: 750px){
+.common_contain .main_cotain .main_left {
+    width: 90%;
+    clear: both;
+    margin: 0 auto;
+}	
+
+.main_right h4 {
+    width: 90%;
+    margin: 1.5% auto 3.5% auto;
+    font-size: 180%;
+    padding-bottom: 0;
+}
+.pageTtl{
+	width: 90%;
+	margin: 0 auto 24px;
+}
+h6 {
+	font-size: 128%;
+}
+
+h6.title_small {
+	display:block;
+}
+h6.title_small span {
+	font-size: 115%;
+}
+.icon_balloon{
+	background: url(../images/icon_balloon.jpg) center left no-repeat;
+	background-size: 32px;
+	padding: 3px 0 5px 38px;
+	line-height: 1.5;
+}
+.icon_pc{
+	background: url(../images/icon_pc.jpg) center left no-repeat;
+	background-size: 28px;
+	padding: 8px 0 5px 34px;
+	line-height: 1.5;
+}
+.icon_earth{
+	background:url(../images/icon_earth.jpg) center left no-repeat;
+	background-size: 30px;
+	padding: 8px 0 5px 38px;
+	line-height: 1.5;
+}
+
+
+.title_full {
+	display:none;
+}
+
+.common_contain .main_cotain .main_right .img_photo{
+	width: 96%;
+}
+
+.main_right .group1 {
+	width:90%;
+	clear:both;
+	margin:3% auto 0 auto;
+}
+
+.main_right .group1 .img_contain {
+	width:100%;
+	float:left;
+	padding-right:0;
+}
+
+.main_right .group1 .text_contain {
+	width:100%;
+	float:left;
+}
+
+.main_right .group2 {
+	width:90%;
+	clear:both;
+	margin:0 auto;
+}
+
+.main_right .group2 .text_contain {
+	width:100%;
+	float:left;
+	padding-right:0;
+}
+
+.main_right .group2 .img_contain {
+	width:100%;
+	float:left;
+}
+
+.main_right .group3 {
+	width:90%;
+	clear:both;
+	margin:0 auto;
+}
+
+.main_right .group3 .img_contain {
+	width:100%;
+	float:left;
+	padding-right:0;
+}
+
+.main_right .group3 .text_contain {
+	width:100%;
+	float:left;
+}
+
+.main_right .img_contain img {
+	width:100%;
+	height:auto;
+	margin:3% 0 2% 0;
+}
+
+.common_contain .main_cotain .main_right a {
+	font-size:120%;
+	line-height:140%;
+}
+
+.main_right a img {
+	transform:scale(1.4,1.4);
+	-webkit-transform:scale(1.4,1.4);
+	-moz-transform:scale(1.4,1.4);
+	-ms-transform:scale(1.4,1.4);
+	margin-top:7px;
+}
+
+.main_right .group1 a.link1 {
+	margin:1% 0 2% 0;
+}
+
+.main_right .group1 a.link2 {
+    margin-bottom: 0;
+}
+
+.main_right .group2 a.link1 {
+	margin:1% 0 0 0;
+}
+
+.main_right .group3 a.link1 {
+	margin:1% 0 0 0;
+}
+
+.text_contain {
+	margin-bottom:7%;
+}
+.text_contain:last-child{
+	margin-bottom: 0;
+}
+
+hr.line {
+	width:100%;
+	clear:both;
+	display:block;
+	margin:0 0 6% 0;
+}
+}

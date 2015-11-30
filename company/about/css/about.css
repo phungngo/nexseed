@@ -1,0 +1,369 @@
+h4 {
+	margin-bottom:10px;
+}
+
+.main_right {
+	margin-bottom:83px;
+}
+
+.main_right .group1 {
+	width:100%;
+	clear:both;
+}
+
+.main_right .group2 {
+	width:100%;
+	clear:both;
+}
+
+.main_right .group1 a {
+	font-size:14px;
+	color:#0078a3;
+	text-decoration:underline;
+	display:block;
+}
+
+.main_right .group1 a:hover {
+	text-decoration:none;
+}
+
+hr.line {
+	width:100%;
+	display:block;
+	height:1px;
+	border:0;
+	background:#d8d8d8;
+	clear:both;
+	margin:26px 0 26px 0;
+}
+
+dl {
+	display:block;
+	width:100%;
+	clear:both;
+	margin:0;
+	padding:0;
+}
+
+dt {
+	display:block;
+	width:151px;
+	margin:0 32px 0 0;
+	font-size:18px;
+	line-height:22px;
+	float:left;
+	background:url(../images/bg_dot.jpg);
+	background-position:0 0;
+	text-align:right;
+	padding:8px 17px 8px 0;
+}
+
+dd {
+	display:block;
+	width:480px;
+	margin:0;
+	font-size:14px;
+	line-height:22px;
+	float:left;
+	padding:8px 0 8px 0;
+}
+
+.group2 dt {
+	padding:10px 17px 10px 0;
+}
+
+.group2 dd {
+	padding:10px 0 10px 0;
+}
+
+.group1 dt.first {
+	padding-top:14px;
+}
+.group1 dd.first {
+	padding-top:14px;
+}
+
+.group1 dl.first dt.fourth {
+	margin-bottom:17px;
+}
+.group1 dl.first dd.fourth {
+	margin-bottom:17px;
+}
+
+
+.group2 dt.first {
+	padding-top:20px;
+}
+.group2 dd.first {
+	padding-top:20px;
+}
+
+.group2 dd.end {
+	padding-bottom:20px;
+}
+
+.group2 dt.end {
+	padding-bottom:16px;
+}
+
+p.text_uppercase {
+	font-weight:bold;
+}
+
+dl.second dt.seven, dl.second dd.seven {
+	margin-bottom:17px;
+}
+
+@media screen and (min-width:239px) and (max-width:750px) {
+.common_contain .main_cotain .main_left {
+	width:90%;
+	clear:both;
+	margin:0 auto;
+}
+
+.main_right .group1 a {
+	width:90%;
+	margin:0 auto;
+	display:block;
+	font-size:110%;
+	line-height:130%;
+}
+
+h4 {
+    font-size:180%;
+	width:90%;
+	margin:0 auto 4% auto;
+}
+
+.common_contain .main_cotain .main_right p {
+	font-size:120%;
+}
+
+dl {
+	width:90%;
+	margin:0 auto;
+	padding:0;
+}
+
+dt {
+	width:100%;
+	height:auto !important;
+	background:none;
+	text-align:left;
+	font-size:120%;
+	line-height:130%;
+	font-weight:bold;
+	padding:0;
+	margin-bottom:0.2%;
+}
+
+dd {
+	width:100%;
+	height:auto !important;
+	font-size:110%;
+	line-height:130%;
+	margin-bottom:2%;
+	padding:0;
+}
+
+.group1 dl.first dt.fourth {
+	margin-bottom:0;
+}
+
+dl.second dt.seven {
+	margin-bottom:0;
+}
+
+dl.second dd.seven {
+	margin-bottom:2%;
+}
+
+.group1 dt.first {
+	padding-top:3%;
+}
+
+.group1 dd.first {
+	padding:0;
+}
+
+.group1 dl.first dd.fourth {
+	margin-bottom:4%;
+}
+
+.group2 dt {
+	margin-top:0;
+	padding:0;
+}
+
+.group2 dt.first {
+    padding-top: 0;
+}
+
+.group2 dd.first, .group2 dd {
+	padding:0;
+}
+
+.group2 dt.end {
+    padding-bottom: 0;
+}
+
+.group2 dd.end {
+    padding-bottom: 0;
+	margin-bottom:4%;
+}
+
+.common_contain .main_cotain .main_right p {
+	width:90%;
+	margin:0 auto;
+}
+
+hr.line {
+	margin:4% 0 3% 0;
+}
+
+}
+
+@media screen and (min-width:681px) and (max-width:736px) { 
+hr.line {
+	margin:5% 0 4% 0;
+}
+.group2 dd.end {
+	margin-bottom:5%;
+}
+dd {
+	margin-bottom:3%;
+}
+
+.group1 dl.first dd.fourth {
+    margin-bottom: 5%;
+}
+.group1 dt.first {
+	padding-top:4%;
+}
+}
+
+@media screen and (min-width:569px) and (max-width:680px) { 
+hr.line {
+	margin:6% 0 5% 0;
+}
+
+dd {
+	margin-bottom:3%;
+}
+
+.group2 dd.end {
+	margin-bottom:6%;
+}
+
+.group1 dl.first dd.fourth {
+    margin-bottom: 5%;
+}
+
+.group1 dt.first {
+	padding-top:4%;
+}
+
+}
+
+@media screen and (min-width:481px) and (max-width:568px) { 
+hr.line {
+	margin:7% 0 6% 0;
+}
+dd {
+	margin-bottom:3%;
+}
+
+.group2 dd.end {
+	margin-bottom:7%;
+}
+
+.group1 dl.first dd.fourth {
+    margin-bottom: 5%;
+}
+
+.group1 dt.first {
+	padding-top:5%;
+}
+
+}
+
+@media screen and (min-width:420px) and (max-width:480px) { 
+hr.line {
+	margin:8% 0 7% 0;
+}
+h4 {
+	font-size:160%;
+}
+.common_contain .main_cotain .main_right p {
+    font-size: 110%;
+}
+dt {
+	font-size:110%;
+}
+dd {
+	font-size:110%;
+	line-height:140%;
+	margin-bottom:3%;
+}
+
+.group2 dd.end {
+	margin-bottom:7%;
+}
+
+.group1 dl.first dd.fourth {
+    margin-bottom: 5%;
+}
+
+.group1 dt.first {
+	padding-top:5%;
+}
+
+.main_right .group1 a {
+	font-size:110%;
+}
+
+}
+
+@media screen and (min-width:239px) and (max-width:419px) { 
+hr.line {
+	margin:9% 0 8% 0;
+}
+h4 {
+	font-size:160%;
+	margin:0 auto 4% auto;
+}
+.common_contain .main_cotain .main_right p {
+    font-size: 110%;
+}
+dt {
+	font-size:110%;
+}
+dd {
+	font-size:110%;
+	line-height:140%;
+	margin-bottom:5%;
+}
+
+.group2 dd.end {
+	margin-bottom:8%;
+}
+
+.group1 dl.first dd.fourth {
+    margin-bottom: 7%;
+}
+
+.group1 dt.first {
+	padding-top:6%;
+}
+
+.main_right .group1 a {
+	font-size:110%;
+}
+}
+
+@media screen and (min-width:239px) and (max-width:300px) {
+dt, dd {
+	font-size:100%;
+}
+}
+

@@ -1,0 +1,304 @@
+h5 {
+	font-size:18px;
+	line-height:28px;
+	background:url(../images/icon_q.jpg) no-repeat;
+	padding-left:33px;
+	font-weight:bold;	
+	margin-bottom:17px;
+	display:block;
+	clear:both;
+}
+
+hr.qa_about_line {
+	height:1px;
+	width:680px;
+	clear:both;
+	float:left;
+	border:0;
+	background:#e6e6e6;
+	margin-top:11px;
+	margin-bottom:28px;
+}
+.main_right {
+	float:left;
+	width:auto;
+}
+.main_right p {
+	background:url(../images/icon_a.jpg) no-repeat;
+	padding-left:33px;
+	padding-top:2px;
+	clear:both;
+}
+
+.main_right p.end {
+	/*padding-bottom:82px;*/
+}
+
+.main_list_right {
+	width:90%;
+	clear:both;
+	display:block;
+	margin:-11px auto 22px auto;
+	float:left;
+	padding:0;
+}
+
+.main_list_right li {
+	display:block;
+	list-style:none;
+	font-size:14px;
+	line-height:22px;
+	padding-left:55px;
+	background:url(../../images/square.jpg) no-repeat;
+	background-position:40px 9px;
+	vertical-align:top;
+}
+.main_list_right li img {
+	padding:9px 13px 0 38px;
+	vertical-align:top;
+}
+
+.main_right {
+	margin-bottom:82px;
+}
+
+
+@media screen and (min-width:239px)and (max-width:750px) {
+.common_contain .main_cotain .main_left {
+	width:90%;
+	clear:both;
+	margin:0 auto;
+}
+
+h4 {
+    font-size:180%;
+	width:90%;
+	margin:0 auto 3.5% auto;
+}
+
+.main_right h5{
+    font-size: 150%;
+	line-height:120%;
+	margin:0 auto 0.5% auto;
+	width:86.5%;
+	padding-left:4.5%;
+}
+
+.common_contain .main_cotain .main_right p {
+	width:86.5%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:4.5%;
+	padding-top:0;
+}
+
+hr.qa_about_line {
+	width:100%;
+	margin:1.5% auto 4% auto;
+}
+
+.main_right p.end {
+	padding-bottom:2%;
+}
+
+.main_list_right {
+	float:none;
+}
+
+.main_list_right li {
+	font-size:100%;
+	line-height:150%;
+	padding-left:7.5%;
+	background-position:5.5% 50%;
+}
+
+.common_contain .main_cotain .main_right p {
+	line-height:170% !important;
+}
+
+}
+
+@media screen and (min-width:681px)and (max-width:736px) {
+h4 {
+    margin:0 auto 4.5% auto;
+}
+
+.main_right h5{
+    width:85.5%;
+	padding-left:5.5%;
+}
+
+hr.qa_about_line {
+	margin:1.5% auto 4% auto;
+}
+
+.common_contain .main_cotain .main_right p {
+	width:85.5%;
+	padding-left:5.5%;
+}
+
+.main_list_right li {
+	padding-left:7.5%;
+	background-position:5.5% 9px;
+}		
+}
+
+@media screen and (min-width:569px)and (max-width:680px) {
+h4 {
+    margin:1% auto 5.5% auto;
+}
+
+.main_right h5{
+    width:85.5%;
+	padding-left:5.5%;
+}
+
+.common_contain .main_cotain .main_right p {
+	width:85.5%;
+	padding-left:5.5%;
+}
+
+hr.qa_about_line {
+	margin:1.5% auto 5% auto;
+}
+
+.main_list_right li {
+	padding-left:8.5%;
+	background-position:6.5% 9px;
+}	
+	
+}
+
+@media screen and (min-width:481px) and (max-width:568px) {
+h4 {
+    margin:1% auto 5.5% auto;
+}
+
+iAndroid h4 {
+    margin:2% auto 2.5% auto;
+}
+
+.main_right h5{
+    width:83.5%;
+	padding-left:6.5%;
+}
+
+.common_contain .main_cotain .main_right p {
+	width:83.5%;
+	padding-left:6.5%;
+}
+
+hr.qa_about_line {
+	margin:1.5% auto 5% auto;
+}
+
+.main_list_right li {
+	padding-left:9.5%;
+	background-position:7.5% 9px;
+}	
+	
+}
+
+@media screen and (min-width:420px) and (max-width:480px) {
+h4 {
+    margin:1% auto 6.5% auto;
+	font-size:160%;
+}
+
+.main_right h5{
+    width:82.5%;
+	padding-left:7.5%;
+	font-size:130%;
+	line-height:140%;
+}
+
+.common_contain .main_cotain .main_right p {
+	width:82.5%;
+	padding-left:7.5%;
+	font-size:110%;
+}
+
+hr.qa_about_line {
+	margin:1.5% auto 6% auto;
+}
+
+.main_list_right li {
+	padding-left:10.5%;
+	background-position:8.5% 9px;
+	font-size:100%;
+}	
+	
+}
+
+@media screen and (min-width:361px) and (max-width:419px) {
+h4 {
+    margin:1% auto 6.5% auto;
+	font-size:160%;
+}
+
+.main_right h5{
+    width:80.5%;
+	padding-left:9.5%;
+	font-size:130%;
+	line-height:140%;
+}
+
+.common_contain .main_cotain .main_right p {
+	width:80.5%;
+	padding-left:9.5%;
+	font-size:110%;
+}
+
+hr.qa_about_line {
+	margin:1.5% auto 8% auto;
+}
+
+.main_list_right li {
+	padding-left:12.5%;
+	background-position:10.5% 9px;
+	font-size:100%;
+}	
+	
+}
+
+@media screen and (min-width:239px) and (max-width:360px) {
+h4 {
+    margin:0 auto 7.5% auto;
+	font-size:160%;
+}
+
+.main_right h5{
+    width:79.5%;
+	padding-left:10.5%;
+	font-size:130%;
+	line-height:140%;
+}
+
+.common_contain .main_cotain .main_right p {
+	width:79.5%;
+	padding-left:10.5%;
+	font-size:110%;
+}
+
+hr.qa_about_line {
+	margin:1.5% auto 8% auto;
+}
+
+.main_list_right li {
+	padding-left:13.5%;
+	background-position:11.5% 9px;
+	font-size:100%;
+}	
+	
+}
+
+@media screen and (min-width:239px) and (max-width:300px) {
+.main_right h5 {
+	font-size:100%;
+	line-height:130%;
+}
+.common_contain .main_cotain .main_right p {
+	font-size:90% !important;
+}
+}
+

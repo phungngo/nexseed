@@ -1,0 +1,19 @@
+/*right contain css*/
+
+
+
+
+
+@media screen and (min-width:319px)and (max-width:750px) {
+h4 {
+    font-size:180%;
+	width:90%;
+	margin:0 auto 4% auto;
+}
+
+.common_contain .main_cotain .main_left {
+	width:90%;
+	clear:both;
+	margin:0 auto;
+}
+}

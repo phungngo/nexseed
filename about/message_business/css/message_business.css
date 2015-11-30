@@ -1,0 +1,9 @@
+
+@media screen and (min-width:239px)and (max-width:750px) {
+.common_contain .main_cotain .main_left {
+    width: 90%;
+    clear: both;
+    margin: 0 auto;
+}	
+
+}

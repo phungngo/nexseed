@@ -1,0 +1,195 @@
+h4 {
+	margin-bottom:23px;
+}
+.main_right h6 {
+	line-height:36px;
+	margin:0;
+	padding:0 0 2px 0;
+}
+.img_contain {
+	position:absolute;
+	top:50%;
+	right:0;
+	float:right;
+	width:184px;
+	vertical-align:top;
+	text-align:center;
+}
+
+.main_right .text_contain .img_contain p {
+	font-size:12px;
+	line-height:18px;
+	color:#818181;
+	padding:0 !important;
+	margin:5px 0 0 0;
+}
+
+.main_right .text_contain .img_contain span {
+	display:block;
+}
+
+.text_contain {
+	float:left;
+	width:461px;
+	vertical-align:top;
+}
+
+.main_right .group1, .main_right .group2, .main_right .group3 {
+	position:relative;
+	width:100%;
+}
+
+.main_right .group1 .text_contain p {
+	padding-bottom:41px;
+}
+
+.main_right .group1 .img_contain img{
+	padding-top:17px;
+}
+
+.main_right .group2 .text_contain p {
+	padding-bottom:20px;
+}
+
+.main_right .group2 .img_contain img{
+	padding-top:22px;
+}
+
+.main_right .group3 .img_contain img{
+	padding-top:10px;
+}
+
+hr.line {
+	width:100%;
+	display:block;
+	clear:both;
+	height:1px;
+	border:none;
+	background:#d8d8d8;
+	margin-bottom:35px;
+}
+
+.main_right {
+	margin-bottom:100px;
+}
+
+@media screen and (min-width:239px) and (max-width:960px) {
+.common_contain .main_cotain .main_left {
+    width: 90%;
+    clear: both;
+    margin: 0 auto;
+}
+
+.main_right h4 {
+    width: 90%;
+    margin: 1% auto 3% auto;
+    font-size: 180%;
+    padding-bottom: 0;
+}
+
+.main_right h6 {
+	font-size:160%;
+	line-height:130%;
+}
+
+.main_right .group1, .main_right .group2, .main_right .group3 {
+	position:relative;
+	width:90%;
+	margin:0 auto;
+}
+
+.text_contain {
+	width:100%;
+	clear:both;
+}
+
+.img_contain {
+	width:100%;
+	clear:both;
+	position:relative;
+	float:none;
+	text-align:center;
+}
+
+.main_right .text_contain .img_contain p span {
+	display:inline;
+}
+
+.main_right .group1 .img_contain img, .main_right .group2 .img_contain img, .main_right .group3 .img_contain img {
+	padding-top:4%;
+}
+
+.main_right .group1 .text_contain p{
+	padding-bottom:2.5%;
+}
+
+.main_right .group2 .text_contain p {
+	padding-bottom:2.5%;
+}
+
+.main_right .group3 .text_contain p {
+	padding-bottom:3%;
+}
+
+.main_right .text_contain .img_contain p {
+	margin:1% 0 3% 0;
+	font-size:90%;
+	line-height:100%;
+}
+
+hr.line {
+	width:100%;
+	clear:both;
+	display:block;
+	margin:0 0 4% 0;
+}
+	
+}
+
+@media screen and (min-width:239px) and (max-width:480px) {
+.main_right h4 {
+    font-size: 160%;
+    margin: 2% auto 5% auto;
+}	
+
+.main_right h6 {
+    font-size: 140%;
+    line-height: 130%;
+}
+
+.main_right .text_contain .img_contain p {
+    margin: 2% 0 5% 0 !important;
+    font-size: 80% !important;
+    line-height: 100%;
+}
+
+.main_right .group1 .img_contain img, .main_right .group2 .img_contain img, .main_right .group3 .img_contain img {
+    padding-top: 6%;
+}
+
+hr.line {
+	margin: 0 0 6% 0;
+}
+
+.main_right .group3 .text_contain p {
+    padding-bottom: 4%;
+}
+}
+
+@media screen and (min-width:239px) and (max-width:320px) {
+.main_right .group1 .text_contain p {
+    padding-bottom: 3.5%;
+}
+
+.main_right .group2 .text_contain p {
+    padding-bottom: 3.5%;
+}
+
+.main_right .group1 .img_contain img, .main_right .group2 .img_contain img, .main_right .group3 .img_contain img {
+    padding-top: 8%;
+}
+
+hr.line {
+	margin: 0 0 7% 0;
+}	
+}
